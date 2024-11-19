@@ -14,7 +14,6 @@ from pathlib import Path
 from decouple import config
 
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -76,7 +75,7 @@ TEMPLATES = [
 
 # ...
 # environ sirve para cargar las variables de entorno del sistema
-
+#Subir la clave
 from os import path
 # ...
 SECRET_KEY = config('DJANGO_SECRET_KEY')
